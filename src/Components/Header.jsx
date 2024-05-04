@@ -1,5 +1,5 @@
 import React from 'react'
-import login from './login.png'
+import login from '../assets/login.png'
 
 export default function Header() {
   return (
