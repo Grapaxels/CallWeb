@@ -10,7 +10,7 @@ export default function Header() {
     
     <header className='header'>
         <img className='logo' src={logo} alt='logo'/>
-        <h1 className='we'>We<span className='call'>Call</span></h1>
+        <h1 className='we'>Call<span className='call'>Web</span></h1>
         <Link to='/login'><img src={login} className='login' alt='login'/></Link>
         <Link to={'/Menu'}><img className='menu' src={menu} alt='menu'/></Link>              
 
