@@ -1,0 +1,62 @@
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo{
+    width: 80px;
+    align-items: center;
+    padding: 25px;
+}
+
+.we{
+    padding: 20px;
+    margin-top: -110px;
+    margin-left: 80px;
+    color: White;
+    font-size: 60px;
+}
+.call{
+    color: green;
+}
+
+.log{
+    margin-top: -70px;
+
+}
+.login{
+    width: 50px;
+    float: right;
+    padding-right: 50px;
+    margin-top: -82px;
+    margin-right: 8%;
+    overflow: hidden;
+}
+.menu{
+    padding-left: 10px;
+    width: 30px;
+    float: right;
+    margin-right: 4%;
+
+    margin-top: -85px;
+}
+
+@media screen and (max-width:600px) {
+    .we{
+        font-size: 30px;
+        margin-top: -90px;
+        margin-left: 60px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .login{
+        width: 30px;
+        margin-top: -50px;
+    }
+    .menu{
+        width: 20px;
+        margin-top: -54px;
+    }
+}
