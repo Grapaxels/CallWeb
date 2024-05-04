@@ -1,7 +1,10 @@
 import React from 'react'
+import login from './login.png'
 
 export default function Header() {
   return (
-    <div>Header</div>
+    <>
+    <img src={login} alt='login'/>
+    </>
   )
 }
